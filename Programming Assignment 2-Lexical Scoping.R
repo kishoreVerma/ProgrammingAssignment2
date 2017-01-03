@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...){
     #return the inverse matrix form cache If inverse matrix is already there
         
     if (!is.null(inv_mat)){
-        # print message if its cached inverse matrix  & return the inverse cached matrix   
+        # print message if its cached inverse matrix  & return the cached inverse matrix   
         message("getting cached matrix")
         return(inv_mat)
     } 
